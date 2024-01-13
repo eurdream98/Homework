@@ -9,10 +9,12 @@ public class CubeManager {
         int choiceNum = sc.nextInt();
         switch (choiceNum) {
             case 1:
+                int cnt = 0 ;
                 System.out.println("\uD83D\uDFE5 레드 큐브를 선택하셨습니다.");
                 cube = new RedCube();
                 break;
             case 2:
+                cnt = 0 ;
                 System.out.println("⬛ 블랙 큐브를 선택하셨습니다.");
                 cube = new BlackCube();
                 break;

@@ -1,6 +1,7 @@
 package com.maplestory;
 
 public interface Cube {
+    int CNT = 0;
     String[] GRADE = {"레어","에픽","유니크","레전더리"};
     String[] RARE_OPTION = {"STR:+3%","공격력+3%","크리티컬:+3%","데미지:+3%","몬스터 방어율 무시:+15%"};
     String[] EPIC_OPTION = {"STR:+6%","공격력+6%","크리티컬:+6%","데미지:+6%","몬스터 방어율 무시:+15%"};

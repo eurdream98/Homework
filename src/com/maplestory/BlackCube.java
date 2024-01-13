@@ -3,8 +3,11 @@ package com.maplestory;
 import java.util.Arrays;
 
 public class BlackCube implements Cube{
+
     @Override
     public String[][] changeOption(String[] grade,String[] randomDraw) {
+        System.out.println();
+        System.out.println();
         System.out.println("⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛");
         System.out.println("⬛                                                       ⬛");
         if(grade[0].equals("레어")){
@@ -19,6 +22,8 @@ public class BlackCube implements Cube{
         System.out.println("  before : "+ Arrays.toString(randomDraw));
         System.out.println("⬛                                                       ⬛");
         System.out.println("⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛");
+        System.out.println();
+        System.out.println();
         int random = (int)(Math.random()*100)+1;
         if(grade[0].equals("레어")){
             if(random<30){

@@ -4,8 +4,11 @@ import java.util.Arrays;
 
 public class RedCube implements Cube{
 
+
     @Override
     public String[][] changeOption(String[] grade,String[] randomDraw) {
+        System.out.println();
+        System.out.println();
         if(grade[0].equals("레어")){
         System.out.println("🔵"+grade[0]);
         }else if(grade[0].equals("에픽")){
