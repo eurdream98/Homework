@@ -7,5 +7,5 @@ public interface Cube {
     String[] UNIQUE_OPTION = {"STR:+9%","공격력+9%","크리티컬:+9%","데미지:+9%","몬스터 방어율 무시:+30%","보스 몬스터 공격 시 데미지:+30%"};
     String[] LEGENDARY_OPTION = {"STR:+12%","공격력+9%","크리티컬:+12%","데미지:+12%","몬스터 방어율 무시:+35%","보스 몬스터 공격 시 데미지:+40%"};
 
-    public abstract String[] changeOption(String[] GRADE,String[] randomDraw);
+    public abstract String[][] changeOption(String[] grade, String[] randomDraw);
 }
